@@ -5,3 +5,14 @@
 .sem-margin-bottom{
   margin-bottom: 0px !important;
 }
+.espaco-btn-custom{
+  width: 30px !important;
+  height: 30px !important;
+  line-height: 30px !important;
+}
+.espaco-btn-custom i{
+  line-height: 30px !important;
+}
+.editarLista{
+  margin-right: 5px !important;
+}

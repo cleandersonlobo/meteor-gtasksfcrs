@@ -1,3 +1,7 @@
+Template.lista.rendered = function() {
+
+}
+
 Template.lista.helpers({
   tarefas: function() {
     return Tarefas.find()
@@ -17,6 +21,9 @@ Template.lista.events({
         status: e.currentTarget.checked
       }
     })
-
+  },
+  'click .removerTarefa': function(e) {
+    e.preventDefault()
+    Tarefas.remove(this._id)
   }
 })
